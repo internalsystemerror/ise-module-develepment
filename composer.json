@@ -1,9 +1,9 @@
 {
-    "name": "ise/ise-module-development",
-    "description": "Development module used by Internalsystemerror Limited",
+    "name": "ise/php-metapackage-development",
+    "description": "Development metapackage for PHP used by Internalsystemerror Limited",
     "type": "metapackage",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/internalsystemerror/ise-module-development",
+    "homepage": "https://github.com/internalsystemerror/php-metapackage-development",
     "require": {
         "php": "^5.6 || ^7.0",
         "sensiolabs/security-checker": "^3.0",
