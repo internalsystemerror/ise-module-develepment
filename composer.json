@@ -6,21 +6,28 @@
     "homepage": "https://github.com/internalsystemerror/php-metapackage-development",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "config": {
+        "classmap-authoritative": true,
+        "discard-changes": true,
+        "optimize-autoloader": true,
+        "prepend-autoloader": true,
+        "process-timeout": 5000,
+        "sort-packages": true
+    },
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "^7.1",
+        "phploc/phploc": "^4.0.1",
+        "phpmd/phpmd": "^2.6.0",
+        "phpstan/phpstan": "^0.9.2 | ^1.0.0",
+        "phpunit/phpunit": "^7.2.4",
         "roave/security-advisories": "dev-master",
-        "sensiolabs/security-checker": "^4.1",
-        "phpunit/phpunit": "^6.5",
-        "squizlabs/php_codesniffer": "^3.2",
-        "phpmd/phpmd": "^2.6",
-        "sebastian/phpcpd": "^3.0",
-        "phploc/phploc": "^4.0",
-        "theseer/phpdox": "^0.11 || ^1.0"
+        "sebastian/phpcpd": "^4.0.0",
+        "squizlabs/php_codesniffer": "^3.3.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev",
-            "dev-develop": "1.1.x-dev"
+            "dev-master": "2.0.x-dev",
+            "dev-develop": "2.1.x-dev"
         }
     }
 }
