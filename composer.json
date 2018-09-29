@@ -20,10 +20,10 @@
         "phpmd/phpmd": "^2.6.0",
         "phpstan/phpstan-phpunit": "^0.10.0 | ^1.0.0",
         "phpstan/phpstan-strict-rules": "^0.10.1 | ^1.0.0",
-        "phpunit/phpunit": "^7.3.1",
+        "phpunit/phpunit": "^7.3.5",
         "roave/security-advisories": "dev-master",
-        "sebastian/phpcpd": "^4.0.0",
-        "squizlabs/php_codesniffer": "^3.3.1"
+        "sebastian/phpcpd": "^4.1.0",
+        "squizlabs/php_codesniffer": "^3.3.2"
     },
     "extra": {
         "branch-alias": {
