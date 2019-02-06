@@ -15,12 +15,12 @@
         "sort-packages": true
     },
     "require": {
-        "php": "^7.2.0",
+        "php": ">=7.2",
         "phploc/phploc": "^4.0.1",
         "phpmd/phpmd": "^2.6.0",
-        "phpstan/phpstan-phpunit": "^0.11.0 | ^1.0.0",
-        "phpstan/phpstan-strict-rules": "^0.11.0 | ^1.0.0",
-        "phpunit/phpunit": "^7.5.2",
+        "phpstan/phpstan-phpunit": "^0.11.0",
+        "phpstan/phpstan-strict-rules": "^0.11.0",
+        "phpunit/phpunit": "^8.0.1",
         "roave/security-advisories": "dev-master",
         "sebastian/phpcpd": "^4.1.0",
         "squizlabs/php_codesniffer": "^3.4.0"
