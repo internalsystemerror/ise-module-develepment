@@ -1,5 +1,47 @@
-{
-  "extends": [
-    "config:base"
-  ]
-}
+ "extends": [
+        ":semanticPrefixFixDepsChoreOthers",
+        ":ignoreModulesAndTests",
+        ":disableRateLimiting",
+        ":rebaseStalePrs",
+        "group:monorepos",
+        "group:recommended"
+    ],
+    "assignees": [
+        "internalsystemerror"
+    ],
+    "automerge": true,
+    "baseBranches": [
+        "develop"
+    ],
+    "enabledManagers": [
+        "composer"
+    ],
+    "prCreation": "not-pending",
+    "rangeStrategy": "bump",
+    "rollbackPrs": true,
+    "semanticCommits": true,
+    "separateMajorMinor": true,
+    "separateMinorPatch": true,
+    "timezone": "Europe/London",
+    "unpublishSafe": true,
+    "packageRules": [
+        {
+            "depTypeList": [
+                "require"
+            ],
+            "semanticCommitType": "fix"
+        },
+        {
+            "groupName": "phpstan packages",
+            "groupSlug": "phpstan",
+            "packagePatterns": [
+                "^phpstan/"
+            ]
+        },
+        {
+            "updateTypes": [
+                "major"
+            ],
+            "automerge": false
+        }
+    ]
