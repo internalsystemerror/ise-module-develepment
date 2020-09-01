@@ -1,4 +1,5 @@
- "extends": [
+{
+    "extends": [
         ":semanticPrefixFixDepsChoreOthers",
         ":ignoreModulesAndTests",
         ":disableRateLimiting",
@@ -45,3 +46,4 @@
             "automerge": false
         }
     ]
+}
