@@ -20,7 +20,7 @@
     "prCreation": "not-pending",
     "rangeStrategy": "bump",
     "rollbackPrs": true,
-    "semanticCommits": true,
+    "semanticCommits": "enabled",
     "separateMajorMinor": true,
     "separateMinorPatch": true,
     "timezone": "Europe/London",
