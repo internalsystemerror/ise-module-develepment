@@ -12,7 +12,7 @@
     ],
     "automerge": true,
     "baseBranches": [
-        "develop"
+        "main"
     ],
     "enabledManagers": [
         "composer"
