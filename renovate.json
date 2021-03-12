@@ -17,7 +17,7 @@
     "enabledManagers": [
         "composer"
     ],
-    "prCreation": "immediate",
+    "prCreation": "not-pending",
     "rangeStrategy": "bump",
     "rollbackPrs": true,
     "semanticCommits": "enabled",
